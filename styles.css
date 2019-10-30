@@ -1,0 +1,20 @@
+
+
+
+.navbar {
+    padding 1rem;
+    background-color: white;
+    color: black;
+}
+
+.navbar .navbar-brand {
+    color: black;
+    size: 175%;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.navbar .navbar-item {
+    color: black;
+    font-family: "Helvetica Neue"
+    size: 175%;
+}
