@@ -1,20 +1,37 @@
 
+body {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
 
+.logo {
+    width: 120px;
+}
+
+.rainbowBrite {
+    background: url(https://s3.amazonaws.com/theoatmeal-img/default/header2016/rainbow_bg.png) repeat-x;
+}
 
 .navbar {
-    padding 1rem;
+    padding: 1rem;
     background-color: white;
     color: black;
+
+}
+
+.squiggle_arrow_alone {
+	background: url(https://s3.amazonaws.com/theoatmeal-img/default/squiggle_arrow_up.png) no-repeat center left;
+	padding-left: 20px;
 }
 
 .navbar .navbar-brand {
     color: black;
-    size: 175%;
+    font-size: 3em !important;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 .navbar .navbar-item {
     color: black;
-    font-family: "Helvetica Neue"
+    font-family: "Helvetica Neue";
     size: 175%;
 }
