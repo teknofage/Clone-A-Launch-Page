@@ -35,3 +35,13 @@ body {
     font-family: "Helvetica Neue";
     size: 175%;
 }
+
+/* li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+} */
+#feed_items li {
+    width: 260px;
+    float: left;
+    margin-right: 30px;
+}
