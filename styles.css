@@ -2,6 +2,7 @@
 body {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 18px;
+    background: url(https://s3.amazonaws.com/theoatmeal-img/default/header2016/rainbow_bg.png) repeat-x;
 }
 
 .logo {
@@ -36,12 +37,34 @@ body {
     size: 175%;
 }
 
+/* #latest {
+    margin-left: 50px;
+    width: 600px;
+    float: left;
+    padding-top: 0;
+}  */ */
+
 /* li {
     display: list-item;
     text-align: -webkit-match-parent;
 } */
+
 #feed_items li {
     width: 260px;
     float: left;
     margin-right: 30px;
+    margin-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+latest {
+    float: center;
+}
+
+.last-col {
+    margin-left: 50px;
+    padding-left: 15em;
 }
